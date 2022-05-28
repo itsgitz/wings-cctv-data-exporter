@@ -20,7 +20,7 @@ exportButton.onclick = function() {
 
     cctvDataArray.push({
       name: cctvName,
-      image: imageFileName
+      file: imageFileName
     });
   }
 
