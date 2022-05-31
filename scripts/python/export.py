@@ -13,7 +13,7 @@ def excel_to_json(args):
         print("Error:", e)
         return
  
-    excel_data = pd.read_excel(excel_path, sheet_name='cctv')
+    excel_data = pd.read_excel(excel_path, sheet_name='GABUNGAN ALL DATA CCTV')
     converted_to_json = excel_data.to_json()
 
     return converted_to_json
